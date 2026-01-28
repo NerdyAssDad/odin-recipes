@@ -1,0 +1,8 @@
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+banner-img {
+  background: url('./images/index_header_image.png')
+}
