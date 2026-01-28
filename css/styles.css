@@ -4,5 +4,8 @@ img {
   max-width: 100%;
 }
 banner-img {
-  background: url('./images/index_header_image.png')
+  background: url('./images/index_header_image.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
