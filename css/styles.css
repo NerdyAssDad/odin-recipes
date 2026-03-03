@@ -13,13 +13,9 @@ img {
   height: auto;
   max-width: 100%;
 }
-.title a {
+.dropbtn a {
   color: black;
   text-decoration: none;
-}
-.header-content {
-  display:flex;
-  justify-content: space-between;
 }
 .dropbtn {
   background-color: blue;
