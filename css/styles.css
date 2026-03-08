@@ -80,7 +80,6 @@ body {
   position: absolute;
   left: -40px;
   transition: all ease-in-out 100ms;
-  text-decoration: underline;
 }
 .header-main ul li ul li a {
   white-space: nowrap;
@@ -93,6 +92,7 @@ ul li:hover>ul {
   visibility: visible;
   opacity: 1;
   display: block;
+  text-decoration: underline;
 }
 /* Dropdown styling end */
 .header-main .search-icon {
