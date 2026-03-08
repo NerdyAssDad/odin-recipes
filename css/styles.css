@@ -87,11 +87,14 @@ body {
   line-height: normal;
   font-size: 0.85rem;
   color:#111;
+  z-index: 999;
 }
 ul li:hover>ul {
   visibility: visible;
   opacity: 1;
   display: block;
+}
+ul li ul li a:hover>ul {
   text-decoration: underline;
 }
 /* Dropdown styling end */
