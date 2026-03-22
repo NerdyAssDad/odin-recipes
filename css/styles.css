@@ -85,7 +85,7 @@ a {
   top: 100%;
   transition: all ease-in-out 100ms;
   box-sizing: border-box;
-  padding: 0;
+  padding: 6px 0;
   width: max-content;
 }
 .header-main ul li ul li a {
