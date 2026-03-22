@@ -16,12 +16,10 @@
 body {
   padding-top: 80px;
 }
-strong {
-  font-weight: bold;
+a {
+  text-decoration: none;
 }
-em {
-  font-style: italic;
-}
+
 .mobile-menu-btn {
   display: none;
 }
