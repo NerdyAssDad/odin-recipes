@@ -79,7 +79,7 @@ a {
 .header-main ul li ul {
   visibility: hidden;
   opacity: 0;
-  display: none;
+  display: block;
   position: absolute;
   left: 0;
   top: 100%;
@@ -88,9 +88,12 @@ a {
   padding: 6px 0;
   width: max-content;
 }
+.header-main ul li ul li {
+  padding: 6px 16px;
+}
 .header-main ul li ul li a {
   white-space: nowrap;
-  padding: 6px 16px;
+  padding: 0;
   line-height: normal;
   font-size: 0.85rem;
   color:#111;
