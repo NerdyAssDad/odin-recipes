@@ -228,15 +228,14 @@ ul li ul li a:hover>ul {
   .header-main ul li ul li {
     height: fit-content;
     display: block;
-    background-color: #3336e7;
   }
   .header-main ul li ul li a {
     background-color: #3336e7;
     color: #fff;
   }
   .header-main ul li ul li a:hover {
-    background-color: #3336e7;
-    color:#fff;
+    background-color: #ddd;
+    text-decoration: underline;
   }
   .header-main ul li:focus>ul,
   .header-main ul li:hover>ul {
@@ -272,5 +271,11 @@ ul li ul li a:hover>ul {
   .header-main form button img {
     height: 5vh;
     padding-top: 15%;
+  }
+  .recipe-directions {
+    list-style-type: decimal;
+  }
+  .ingredients-p {
+    list-style-type: disc;
   }
 }
