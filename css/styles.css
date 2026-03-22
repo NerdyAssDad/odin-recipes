@@ -16,6 +16,12 @@
 body {
   padding-top: 80px;
 }
+strong {
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+}
 .mobile-menu-btn {
   display: none;
 }
@@ -69,8 +75,7 @@ body {
   transition: all ease-in-out 100ms;
 }
 .header-main ul li a:hover {
-  background-color: #3336e7;
-  color: #fff;
+  background-color: #ddd;
 }
 /* Dropdown style start */
 .header-main ul li ul {
@@ -88,6 +93,7 @@ body {
   font-size: 0.85rem;
   color:#111;
   z-index: 999;
+  text-decoration: underline;
 }
 ul li:hover>ul {
   visibility: visible;
@@ -230,8 +236,7 @@ ul li ul li a:hover>ul {
     display: block;
   }
   .header-main ul li ul li a {
-    background-color: #3336e7;
-    color: #fff;
+    background-color: #ddd;
   }
   .header-main ul li ul li a:hover {
     background-color: #ddd;
