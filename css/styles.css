@@ -93,6 +93,7 @@ em {
   font-size: 0.85rem;
   color:#111;
   z-index: 999;
+  border-bottom: #3336e7;
 }
 ul li:hover>ul {
   visibility: visible;
