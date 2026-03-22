@@ -75,7 +75,7 @@ em {
   transition: all ease-in-out 100ms;
 }
 .header-main ul li a:hover {
-  background-color: #ddd;
+  background-color: #fff;
 }
 /* Dropdown style start */
 .header-main ul li ul {
@@ -93,12 +93,12 @@ em {
   font-size: 0.85rem;
   color:#111;
   z-index: 999;
-  text-decoration: underline;
 }
 ul li:hover>ul {
   visibility: visible;
   opacity: 1;
   display: block;
+  text-decoration: underline;
 }
 ul li ul li a:hover>ul {
   text-decoration: underline;
