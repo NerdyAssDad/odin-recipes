@@ -83,6 +83,7 @@ a {
   position: absolute;
   left: -40px;
   transition: all ease-in-out 100ms;
+  box-sizing: border-box;
 }
 .header-main ul li ul li a {
   white-space: nowrap;
@@ -104,6 +105,7 @@ ul li:hover>ul {
   border-bottom: 2px solid #3336e7;
   border-left: 2px solid #3336e7;
   border-right: 2px solid #3336e7;
+  padding: 0;
 }
 /* Dropdown styling end */
 .header-main .search-icon {
